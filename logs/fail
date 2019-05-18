@@ -1,0 +1,39 @@
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.005344    19 network.hpp:432] ZooKeeper group memberships changed
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.005460    33 group.cpp:699] Trying to get '/mesos/log_replicas/0000001062' in ZooKeeper
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.006727    33 group.cpp:699] Trying to get '/mesos/log_replicas/0000001063' in ZooKeeper
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.006884    46 zookeeper.cpp:262] A new leading master (UPID=master@10.84.64.146:5050) is detected
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.007032    17 master.cpp:2161] Elected as the leading master!
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.007066    17 master.cpp:1700] Recovering from registrar
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.007812    21 log.cpp:553] Attempting to start the writer
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.008196    14 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.142:5050, log-replica(1)@10.84.64.146:5050 }
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.010207    21 replica.cpp:495] Replica received implicit promise request from __req_res__(2)@10.84.64.146:5050 with proposal 516
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.021039    46 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:45894 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.022606    12 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43094 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.029263    50 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40382 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.045500    33 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:45900 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.048233    30 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43096 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.048864    30 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40386 with User-Agent='Mesos-DNS'
+May 16 01:12:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:50.094393    21 replica.cpp:344] Persisted promised to 516
+May 16 01:12:54 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:54.108961    43 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40430 with User-Agent='Mesos-DNS'
+May 16 01:12:59 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:59.248911    13 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43146 with User-Agent='Mesos-DNS'
+May 16 01:12:59 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:12:59.307435    19 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:45966 with User-Agent='Mesos-DNS'
+May 16 01:13:09 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:09.108899    16 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40560 with User-Agent='Mesos-DNS'
+May 16 01:13:14 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:14.249140    43 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43250 with User-Agent='Mesos-DNS'
+May 16 01:13:14 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:14.305815    24 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:46064 with User-Agent='Mesos-DNS'
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.950048    42 network.hpp:432] ZooKeeper group memberships changed
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.950166    45 group.cpp:699] Trying to get '/mesos/log_replicas/0000001062' in ZooKeeper
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.950925    45 group.cpp:699] Trying to get '/mesos/log_replicas/0000001063' in ZooKeeper
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.951548    45 group.cpp:699] Trying to get '/mesos/log_replicas/0000001064' in ZooKeeper
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.953047    17 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.133:5050, log-replica(1)@10.84.64.142:5050, log-replica(1)@10.84.64.146:5050
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.965672    12 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:46118 with User-Agent='Mesos-DNS'
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.967725    12 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40692 with User-Agent='Mesos-DNS'
+May 16 01:13:23 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:23.968859    27 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43326 with User-Agent='Mesos-DNS'
+May 16 01:13:24 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:24.108816    26 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40700 with User-Agent='Mesos-DNS'
+May 16 01:13:29 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:29.249186    45 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43356 with User-Agent='Mesos-DNS'
+May 16 01:13:29 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:29.308300    48 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:46166 with User-Agent='Mesos-DNS'
+May 16 01:13:39 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:39.118185    13 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:40826 with User-Agent='Mesos-DNS'
+May 16 01:13:44 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:44.256707    19 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:43452 with User-Agent='Mesos-DNS'
+May 16 01:13:44 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: I0516 01:13:44.369182    35 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:46258 with User-Agent='Mesos-DNS'
+May 16 01:13:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: F0516 01:13:50.008328    34 master.cpp:1689] Recovery failed: Failed to recover registrar: Failed to perform fetch within 1mins
+May 16 01:13:50 maiden-04-dp68-h1-09ir.nodes.nw.ai.cba runc[19136]: *** Check failure stack trace: ***
+
