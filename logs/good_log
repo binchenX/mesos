@@ -1,0 +1,125 @@
+
+# new leader
+May 17 04:19:28 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:19:28.719938    48 network.hpp:432] ZooKeeper group memberships changed
+May 17 04:19:28 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:19:28.720077    21 group.cpp:699] Trying to get '/mesos/log_replicas/0000001080' in ZooKeeper
+May 17 04:19:28 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:19:28.722968    21 group.cpp:699] Trying to get '/mesos/log_replicas/0000001081' in ZooKeeper
+May 17 04:19:28 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:19:28.724020    21 group.cpp:699] Trying to get '/mesos/log_replicas/0000001082' in ZooKeeper
+May 17 04:19:28 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:19:28.725159    32 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.133:5050, log-replica(1)@10.84.64.142:5050, log-replica(1)@10.84.64.146:5050 }
+May 17 04:23:03 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:03.229027    33 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:47646 with User-Agent='Mesos-DNS'
+May 17 04:23:03 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:03.229097    33 http.cpp:2122] Redirecting request for /master/state.json to the leading master maiden-04-dp68-h1-09ir.nodes.nw.ai.cba
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.006062    21 detector.cpp:152] Detected a new leader: (id='1082')
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.006229    44 group.cpp:699] Trying to get '/mesos/json.info_0000001082' in ZooKeeper
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.007613    37 zookeeper.cpp:262] A new leading master (UPID=master@10.84.64.133:5050) is detected
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.007799    40 network.hpp:432] ZooKeeper group memberships changed
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.007890    51 group.cpp:699] Trying to get '/mesos/log_replicas/0000001081' in ZooKeeper
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.008148    35 master.cpp:2161] Elected as the leading master!
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.008208    35 master.cpp:1700] Recovering from registrar
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.008957    30 log.cpp:553] Attempting to start the writer
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.009641    51 group.cpp:699] Trying to get '/mesos/log_replicas/0000001082' in ZooKeeper
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.010004    12 replica.cpp:495] Replica received implicit promise request from __req_res__(1)@10.84.64.133:5050 with proposal 527
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.011270    31 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.133:5050, log-replica(1)@10.84.64.142:5050 }
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: E0517 04:23:08.013206    52 process.cpp:2455] Failed to shutdown socket with fd 25, address 10.84.64.133:56968: Transport endpoint is not connected
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.040307    47 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:47678 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.040578    47 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:40874 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.041522    47 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:59862 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.066730    42 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:40880 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.066965    42 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:47680 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.068168    25 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:59868 with User-Agent='Mesos-DNS'
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.090626    12 replica.cpp:344] Persisted promised to 527
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.098570    15 coordinator.cpp:238] Coordinator attempting to fill missing positions
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.098685    37 log.cpp:569] Writer started with ending position 144
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.101321    33 registrar.cpp:389] Successfully fetched the registry (684B) in 92.958976ms
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.101431    33 registrar.cpp:493] Applied 1 operations in 34600ns; attempting to update the registry
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.102560    29 coordinator.cpp:348] Coordinator attempting to write APPEND action at position 145
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.103497    40 replica.cpp:539] Replica received write request for position 145 from __req_res__(4)@10.84.64.133:5050
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.207049    23 replica.cpp:693] Replica received learned notice for position 145 from @0.0.0.0:0
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.302920    18 registrar.cpp:550] Successfully updated the registry in 201.435136ms
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.303128    18 registrar.cpp:422] Successfully recovered registrar
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.303357    16 coordinator.cpp:348] Coordinator attempting to write TRUNCATE action at position 146
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.303966    15 master.cpp:1799] Recovered 2 agents from the registry (686B); allowing 10mins for agents to re-register
+May 17 04:23:08 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:08.304574    27 replica.cpp:539] Replica received write request for position 146 from __req_res__(6)@10.84.64.133:5050
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.288925    41 master.cpp:5708] Received re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S1 at slave(1)@10.84.64.132:5051 (jessica.nodes.nw.ai.cba)
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.289181    41 master.cpp:5691] Ignoring re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S1 at slave(1)@10.84.64.132:5051 (jessica.nodes.nw.ai.cba) as re-registration is already in progress
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.289249    41 master.cpp:5895] Re-registering agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S1 at slave(1)@10.84.64.132:5051 (jessica.nodes.nw.ai.cba)
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.289522    27 registrar.cpp:493] Applied 1 operations in 106032ns; attempting to update the registry
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.289866    20 master.cpp:5691] Ignoring re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S1 at slave(1)@10.84.64.132:5051 (jessica.nodes.nw.ai.cba) as re-registration is already in progress
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.315057    27 master.cpp:5708] Received re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S0 at slave(1)@10.84.64.145:5051 (quasi.nodes.nw.ai.cba)
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.315304    27 master.cpp:2813] Received SUBSCRIBE call for framework 'marathon' at scheduler-ea64ac80-f839-4916-baa9-b96c1d61ee35@10.84.64.133:33987
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.315423    27 master.cpp:5895] Re-registering agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S0 at slave(1)@10.84.64.145:5051 (quasi.nodes.nw.ai.cba)
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.315901    27 master.cpp:2890] Subscribing framework marathon with checkpointing enabled and capabilities [ PARTITION_AWARE ]
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.316089    27 master.cpp:6272] Updating info for framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.316323    44 hierarchical.cpp:273] Added framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.316362    44 hierarchical.cpp:374] Deactivated framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.316853    12 hierarchical.cpp:342] Activated framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.317528    19 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.142:59906 with User-Agent='Mesos-DNS'
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.317687    19 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.133:40896 with User-Agent='Mesos-DNS'
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.329794    46 replica.cpp:693] Replica received learned notice for position 146 from @0.0.0.0:0
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.339573    29 master.cpp:5691] Ignoring re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S0 at slave(1)@10.84.64.145:5051 (quasi.nodes.nw.ai.cba) as re-registration is already in progress
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.339663    29 master.cpp:5691] Ignoring re-register agent message from agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S0 at slave(1)@10.84.64.145:5051 (quasi.nodes.nw.ai.cba) as re-registration is already in progress
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.351595    19 master.cpp:2813] Received SUBSCRIBE call for framework 'marathon' at scheduler-ea64ac80-f839-4916-baa9-b96c1d61ee35@10.84.64.133:33987
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.351696    19 master.cpp:2890] Subscribing framework marathon with checkpointing enabled and capabilities [ PARTITION_AWARE ]
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.351725    19 master.cpp:6272] Updating info for framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.351780    19 master.cpp:2994] Framework 25d4e5eb-5085-4fd0-81fd-07686fd2859f-0000 (marathon) at scheduler-ea64ac80-f839-4916-baa9-b96c1d61ee35@10.84.64.133:33987 failed over
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.381036    32 coordinator.cpp:348] Coordinator attempting to write APPEND action at position 147
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.382385    50 replica.cpp:539] Replica received write request for position 147 from __req_res__(8)@10.84.64.133:5050
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.446882    44 replica.cpp:693] Replica received learned notice for position 147 from @0.0.0.0:0
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.505817    39 registrar.cpp:550] Successfully updated the registry in 216.24192ms
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.505935    34 coordinator.cpp:348] Coordinator attempting to write TRUNCATE action at position 148
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.506031    39 registrar.cpp:493] Applied 1 operations in 30307ns; attempting to update the registry
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.507041    32 replica.cpp:539] Replica received write request for position 148 from __req_res__(10)@10.84.64.133:5050
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.554595    32 replica.cpp:693] Replica received learned notice for position 148 from @0.0.0.0:0
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.613193    14 coordinator.cpp:348] Coordinator attempting to write APPEND action at position 149
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.614105    51 replica.cpp:539] Replica received write request for position 149 from __req_res__(12)@10.84.64.133:5050
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.705729    39 replica.cpp:693] Replica received learned notice for position 149 from @0.0.0.0:0
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.797600    41 registrar.cpp:550] Successfully updated the registry in 291.457792ms
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.798138    18 coordinator.cpp:348] Coordinator attempting to write TRUNCATE action at position 150
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.798907    27 replica.cpp:539] Replica received write request for position 150 from __req_res__(14)@10.84.64.133:5050
+May 17 04:23:12 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:12.855792    31 replica.cpp:693] Replica received learned notice for position 150 from @0.0.0.0:0
+May 17 04:23:14 dynamic-16-dp68-h1-09ir.nodes.nw.ai.cba runc[27456]: I0517 04:23:14.009572    33 master.cpp:6125] Re-registered agent 25d4e5eb-5085-4fd0-81fd-07686fd2859f-S1 at slave(1)@10.84
+
+# follower
+
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.719385    26 network.hpp:432] ZooKeeper group memberships changed
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.719470    48 group.cpp:699] Trying to get '/mesos/log_replicas/0000001080' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.720268    48 group.cpp:699] Trying to get '/mesos/log_replicas/0000001081' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.721390    48 group.cpp:699] Trying to get '/mesos/log_replicas/0000001082' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.722250    24 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.133:5050, log-replica(1)@10.84.64.142:5050, log-replica(1)@10.84.64.146:5050 }
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: 2019-05-17 04:19:28,722:1(0x7f1cc27fc700):ZOO_INFO@check_events@1775: session establishment complete on server [127.0.0.1:21182], sessionId=0x26abf7d2ae9001f, negotiated timeout=10000
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.722764    48 group.cpp:340] Group process (zookeeper-group(4)@10.84.64.142:5050) connected to ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.722797    48 group.cpp:830] Syncing group operations: queue size (joins, cancels, datas) = (0, 0, 0)
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.722808    48 group.cpp:418] Trying to create path '/mesos' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.723495    17 contender.cpp:152] Joining the ZK group
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: 2019-05-17 04:19:28,724:1(0x7f1cc2ffd700):ZOO_INFO@check_events@1775: session establishment complete on server [127.0.0.1:21181], sessionId=0x16ac2fe374d0012, negotiated timeout=10000
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.724495    34 group.cpp:340] Group process (zookeeper-group(3)@10.84.64.142:5050) connected to ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.724519    34 group.cpp:830] Syncing group operations: queue size (joins, cancels, datas) = (1, 0, 0)
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.724526    34 group.cpp:418] Trying to create path '/mesos' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.725327    33 detector.cpp:152] Detected a new leader: (id='1081')
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.725761    38 group.cpp:699] Trying to get '/mesos/json.info_0000001081' in ZooKeeper
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.727077    28 zookeeper.cpp:262] A new leading master (UPID=master@10.84.64.146:5050) is detected
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.727234    46 master.cpp:2174] The newly elected leader is master@10.84.64.146:5050 with id 23fe78ba-34fc-420b-a8b0-880596af970d
+May 17 04:19:28 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:19:28.728044    17 contender.cpp:268] New candidate (id='1083') has entered the contest for leadership
+May 17 04:23:03 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:03.210777    21 http.cpp:1115] HTTP GET for /master/state.json from 10.84.64.146:56192 with User-Agent='Mesos-DNS'
+May 17 04:23:03 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:03.210852    21 http.cpp:2122] Redirecting request for /master/state.json to the leading master maiden-04-dp68-h1-09ir.nodes.nw.ai.cba
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.004822    16 network.hpp:432] ZooKeeper group memberships changed
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.005013    44 group.cpp:699] Trying to get '/mesos/log_replicas/0000001081' in ZooKeeper
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.005653    44 group.cpp:699] Trying to get '/mesos/log_replicas/0000001082' in ZooKeeper
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.005894    36 detector.cpp:152] Detected a new leader: (id='1082')
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.006042    42 group.cpp:699] Trying to get '/mesos/json.info_0000001082' in ZooKeeper
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.007196    26 network.hpp:480] ZooKeeper group PIDs: { log-replica(1)@10.84.64.133:5050, log-replica(1)@10.84.64.142:5050 }
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.007571    43 zookeeper.cpp:262] A new leading master (UPID=master@10.84.64.133:5050) is detected
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.007941    41 master.cpp:2174] The newly elected leader is master@10.84.64.133:5050 with id 80b6daba-1c00-46d1-ba0e-e34c30b9f555
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.011307    33 replica.cpp:495] Replica received implicit promise request from __req_res__(2)@10.84.64.133:5050 with proposal 527
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.097566    33 replica.cpp:344] Persisted promised to 527
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.104234    20 replica.cpp:539] Replica received write request for position 145 from __req_res__(5)@10.84.64.133:5050
+May 17 04:23:08 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:08.207448    41 replica.cpp:693] Replica received learned notice for position 145 from @0.0.0.0:0
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.288625    12 replica.cpp:539] Replica received write request for position 146 from __req_res__(7)@10.84.64.133:5050
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.330283    35 replica.cpp:693] Replica received learned notice for position 146 from @0.0.0.0:0
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.382756    22 replica.cpp:539] Replica received write request for position 147 from __req_res__(9)@10.84.64.133:5050
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.447367    43 replica.cpp:693] Replica received learned notice for position 147 from @0.0.0.0:0
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.507092    19 replica.cpp:539] Replica received write request for position 148 from __req_res__(11)@10.84.64.133:5050
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.554873    42 replica.cpp:693] Replica received learned notice for position 148 from @0.0.0.0:0
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.614693    17 replica.cpp:539] Replica received write request for position 149 from __req_res__(13)@10.84.64.133:5050
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.706324    29 replica.cpp:693] Replica received learned notice for position 149 from @0.0.0.0:0
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.799667    21 replica.cpp:539] Replica received write request for position 150 from __req_res__(15)@10.84.64.133:5050
+May 17 04:23:12 telex-36-dp68-h1-09ir.nodes.nw.ai.cba runc[10482]: I0517 04:23:12.856228    25 replica.cpp:693] Replica received learned notice for position 150 from @0.0.0.0:0
+
